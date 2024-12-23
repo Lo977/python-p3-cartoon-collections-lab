@@ -1,3 +1,5 @@
+lists = ["gouda","bsdhdh","ch","dhsdhds"]
+
 def roll_call_dwarves(dwarfs):
     i = 1
     for dwarf  in dwarfs:
@@ -23,3 +25,4 @@ def find_the_cheese(foods):
         if food in cheeses:
             return food
     return None
+print(find_the_cheese(lists))
